@@ -95,7 +95,7 @@ const IfoPoolVaultCardDesktop: React.FC<IfoPoolVaultCardDesktopProps> = ({ accou
               {t('Stake CAKE to participate in IFO')}
             </Text>
           </Box>
-          <TokenPairImage width={64} height={64} primaryToken={tokens.cake} secondaryToken={tokens.cake} />
+          <TokenPairImage width={64} height={64} primaryToken={tokens.afx} secondaryToken={tokens.afx} />
         </StyledTokenContent>
       </CardHeader>
       <StyledCardBody>

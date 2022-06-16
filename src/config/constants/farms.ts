@@ -22,12 +22,12 @@ const farms: SerializedFarmConfig[] = [
   {
     pid: 2,
     v1pid: 251,
-    lpSymbol: 'CAKE-BNB LP',
+    lpSymbol: 'AFX-DAI LP',
     lpAddresses: {
-      97: '0x3ed8936cAFDF85cfDBa29Fbe5940A5b0524824F4',
-      56: '0x0eD7e52944161450477ee417DE9Cd3a859b14fD0',
+      97: '0xcdfc3a487a55fc1f36ce0c2ca9d54dec0324dda0',
+      56: '0x72D5ff1485c6364e94FA4f01024899Af6708e0e1',
     },
-    token: serializedTokens.cake,
+    token: serializedTokens.afx,
     quoteToken: serializedTokens.wbnb,
   },
   {
@@ -227,7 +227,7 @@ const farms: SerializedFarmConfig[] = [
       56: '0x1CCc3cC95c8148477Afd18a552f03835Be9D182a',
     },
     token: serializedTokens.froyo,
-    quoteToken: serializedTokens.cake,
+    quoteToken: serializedTokens.afx,
   },
   {
     pid: 87,
@@ -249,7 +249,7 @@ const farms: SerializedFarmConfig[] = [
       56: '0xbDF0aA1D1985Caa357A6aC6661D838DA8691c569',
     },
     token: serializedTokens.duet,
-    quoteToken: serializedTokens.cake,
+    quoteToken: serializedTokens.afx,
   },
   {
     pid: 85,
@@ -672,12 +672,12 @@ const farms: SerializedFarmConfig[] = [
   {
     pid: 47,
     v1pid: 422,
-    lpSymbol: 'CAKE-USDT LP',
+    lpSymbol: 'AFX-USDT LP',
     lpAddresses: {
       97: '',
       56: '0xA39Af17CE4a8eb807E076805Da1e2B8EA7D0755b',
     },
-    token: serializedTokens.cake,
+    token: serializedTokens.afx,
     quoteToken: serializedTokens.usdt,
   },
   {
@@ -754,7 +754,7 @@ const farms: SerializedFarmConfig[] = [
       97: '',
       56: '0x804678fa97d91B974ec2af3c843270886528a9E6',
     },
-    token: serializedTokens.cake,
+    token: serializedTokens.afx,
     quoteToken: serializedTokens.busd,
   },
   {

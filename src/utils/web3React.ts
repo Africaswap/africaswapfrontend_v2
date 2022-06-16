@@ -38,7 +38,7 @@ export const connectorsByName = {
       url: rpcUrl,
       appName: 'PancakeSwap',
       appLogoUrl: 'https://pancakeswap.com/logo.png',
-      supportedChainIds: [ChainId.MAINNET, ChainId.TESTNET],
+      supportedChainIds: [ChainId.MAINNET, ChainId.BSCTESTNET],
     })
   },
 } as const

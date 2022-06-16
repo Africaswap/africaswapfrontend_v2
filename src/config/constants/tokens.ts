@@ -3,7 +3,7 @@ import { serializeToken } from 'state/user/hooks/helpers'
 import { CHAIN_ID } from './networks'
 import { SerializedToken } from './types'
 
-const { MAINNET, TESTNET } = ChainId
+const { MAINNET, BSCTESTNET } = ChainId
 
 interface TokenList {
   [symbol: string]: Token
@@ -22,13 +22,13 @@ export const mainnetTokens = defineTokens({
   ),
   // bnb here points to the wbnb contract. Wherever the currency BNB is required, conditional checks for the symbol 'BNB' can be used
   bnb: new Token(MAINNET, '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', 18, 'BNB', 'BNB', 'https://www.binance.com/'),
-  cake: new Token(
+  afx: new Token(
     MAINNET,
-    '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
+    '0x89520895296683Def8d63771706DbF50b1CE0435',
     18,
-    'CAKE',
-    'PancakeSwap Token',
-    'https://pancakeswap.finance/',
+    'AFX',
+    'AfricaSwap Token',
+    'https://www.africaswap.org/',
   ),
   gmi: new Token(MAINNET, '0x93D8d25E3C9A847a5Da79F79ecaC89461FEcA846', 18, 'GMI', 'Gamifi', 'https://gamifi.gg/'),
   tlos: new Token(MAINNET, '0xb6C53431608E626AC81a9776ac3e999c5556717c', 18, 'TLOS', 'Telos', 'https://www.telos.net/'),
@@ -2116,23 +2116,23 @@ export const mainnetTokens = defineTokens({
 
 export const testnetTokens = defineTokens({
   wbnb: new Token(
-    TESTNET,
+    BSCTESTNET,
     '0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd',
     18,
     'WBNB',
     'Wrapped BNB',
     'https://www.binance.com/',
   ),
-  cake: new Token(
-    TESTNET,
+  afx: new Token(
+    BSCTESTNET,
     '0xa35062141Fa33BCA92Ce69FeD37D0E8908868AAe',
     18,
-    'CAKE',
-    'PancakeSwap Token',
-    'https://pancakeswap.finance/',
+    'AFX',
+    'AfricaSwap Token',
+    'https://africaswap.org/',
   ),
   busd: new Token(
-    TESTNET,
+    BSCTESTNET,
     '0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee',
     18,
     'BUSD',
@@ -2140,7 +2140,7 @@ export const testnetTokens = defineTokens({
     'https://www.paxos.com/busd/',
   ),
   syrup: new Token(
-    TESTNET,
+    BSCTESTNET,
     '0xfE1e507CeB712BDe086f3579d2c03248b2dB77f9',
     18,
     'SYRUP',
@@ -2148,7 +2148,7 @@ export const testnetTokens = defineTokens({
     'https://pancakeswap.finance/',
   ),
   bake: new Token(
-    TESTNET,
+    BSCTESTNET,
     '0xE02dF9e3e622DeBdD69fb838bB799E3F168902c5',
     18,
     'BAKE',
@@ -2161,7 +2161,7 @@ const tokens = () => {
   const chainId = CHAIN_ID
 
   // If testnet - return list comprised of testnetTokens wherever they exist, and mainnetTokens where they don't
-  if (parseInt(chainId, 10) === ChainId.TESTNET) {
+  if (parseInt(chainId, 10) === ChainId.BSCTESTNET) {
     return Object.keys(mainnetTokens).reduce((accum, key) => {
       return { ...accum, [key]: testnetTokens[key] || mainnetTokens[key] }
     }, {} as typeof testnetTokens & typeof mainnetTokens)

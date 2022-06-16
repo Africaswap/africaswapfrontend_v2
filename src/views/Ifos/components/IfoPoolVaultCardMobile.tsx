@@ -97,7 +97,7 @@ const IfoPoolVaultCardMobile: React.FC<IfoPoolVaultCardMobileProps> = ({ account
         <StyledEndedTag>{t('Ended')}</StyledEndedTag>
         <Flex justifyContent="space-between" alignItems="center">
           <StyledTokenContent alignItems="center" flex={1}>
-            <TokenPairImage width={24} height={24} primaryToken={tokens.cake} secondaryToken={tokens.cake} />
+            <TokenPairImage width={24} height={24} primaryToken={tokens.afx} secondaryToken={tokens.afx} />
             <Box ml="8px">
               <Text small bold>
                 {t('IFO CAKE')}

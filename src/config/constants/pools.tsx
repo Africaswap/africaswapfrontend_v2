@@ -20,7 +20,7 @@ export const vaultPoolConfig = {
     autoCompoundFrequency: 5000,
     gasLimit: 380000,
     tokenImage: {
-      primarySrc: `/images/tokens/${tokens.cake.address}.svg`,
+      primarySrc: `/images/tokens/${tokens.afx.address}.svg`,
       secondarySrc: '/images/tokens/autorenew.svg',
     },
   },
@@ -30,7 +30,7 @@ export const vaultPoolConfig = {
     autoCompoundFrequency: 5000,
     gasLimit: 500000,
     tokenImage: {
-      primarySrc: `/images/tokens/${tokens.cake.address}.svg`,
+      primarySrc: `/images/tokens/${tokens.afx.address}.svg`,
       secondarySrc: '/images/tokens/autorenew.svg',
     },
   },
@@ -40,7 +40,7 @@ export const vaultPoolConfig = {
     autoCompoundFrequency: 1,
     gasLimit: 500000,
     tokenImage: {
-      primarySrc: `/images/tokens/${tokens.cake.address}.svg`,
+      primarySrc: `/images/tokens/${tokens.afx.address}.svg`,
       secondarySrc: `/images/tokens/ifo-pool-icon.svg`,
     },
   },
@@ -49,8 +49,8 @@ export const vaultPoolConfig = {
 const pools: SerializedPoolConfig[] = [
   {
     sousId: 0,
-    stakingToken: serializedTokens.cake,
-    earningToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
+    earningToken: serializedTokens.afx,
     contractAddress: {
       97: '',
       56: '0xa5f8C5Dbd5F286960b9d90548680aE5ebFf07652',
@@ -63,7 +63,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 283,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.xcn,
     contractAddress: {
       97: '',
@@ -77,7 +77,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 282,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.chr,
     contractAddress: {
       97: '',
@@ -91,7 +91,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 281,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.MIX,
     contractAddress: {
       97: '',
@@ -105,7 +105,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 280,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.metis,
     contractAddress: {
       97: '',
@@ -119,7 +119,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 279,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.gal,
     contractAddress: {
       97: '',
@@ -133,7 +133,7 @@ const pools: SerializedPoolConfig[] = [
   },
   {
     sousId: 277,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.ankr,
     contractAddress: {
       97: '',
@@ -151,7 +151,7 @@ const pools: SerializedPoolConfig[] = [
 const finishedPools = [
   {
     sousId: 278,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.rpg,
     contractAddress: {
       97: '',
@@ -165,7 +165,7 @@ const finishedPools = [
   },
   {
     sousId: 276,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.ceek,
     contractAddress: {
       97: '',
@@ -179,7 +179,7 @@ const finishedPools = [
   },
   {
     sousId: 275,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.tinc,
     contractAddress: {
       97: '',
@@ -193,7 +193,7 @@ const finishedPools = [
   },
   {
     sousId: 274,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.pex,
     contractAddress: {
       97: '',
@@ -207,7 +207,7 @@ const finishedPools = [
   },
   {
     sousId: 273,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.gmi,
     contractAddress: {
       97: '',
@@ -221,7 +221,7 @@ const finishedPools = [
   },
   {
     sousId: 272,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.froyo,
     contractAddress: {
       97: '',
@@ -235,7 +235,7 @@ const finishedPools = [
   },
   {
     sousId: 271,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.bsw,
     contractAddress: {
       97: '',
@@ -249,7 +249,7 @@ const finishedPools = [
   },
   {
     sousId: 270,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.duet,
     contractAddress: {
       97: '',
@@ -263,7 +263,7 @@ const finishedPools = [
   },
   {
     sousId: 269,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.gmt,
     contractAddress: {
       97: '',
@@ -277,7 +277,7 @@ const finishedPools = [
   },
   {
     sousId: 268,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.xwg,
     contractAddress: {
       97: '',
@@ -291,7 +291,7 @@ const finishedPools = [
   },
   {
     sousId: 267,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.high,
     contractAddress: {
       97: '',
@@ -305,7 +305,7 @@ const finishedPools = [
   },
   {
     sousId: 266,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.thg,
     contractAddress: {
       97: '',
@@ -319,7 +319,7 @@ const finishedPools = [
   },
   {
     sousId: 265,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.era,
     contractAddress: {
       97: '',
@@ -333,7 +333,7 @@ const finishedPools = [
   },
   {
     sousId: 264,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.btt,
     contractAddress: {
       97: '',
@@ -346,7 +346,7 @@ const finishedPools = [
   },
   {
     sousId: 263,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.ach,
     contractAddress: {
       97: '',
@@ -359,7 +359,7 @@ const finishedPools = [
   },
   {
     sousId: 261,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.sfund,
     contractAddress: {
       97: '',
@@ -372,7 +372,7 @@ const finishedPools = [
   },
   {
     sousId: 260,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.raca,
     contractAddress: {
       97: '',
@@ -385,7 +385,7 @@ const finishedPools = [
   },
   {
     sousId: 259,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.ertha,
     contractAddress: {
       97: '',
@@ -398,7 +398,7 @@ const finishedPools = [
   },
   {
     sousId: 258,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.fuse,
     contractAddress: {
       97: '',
@@ -411,7 +411,7 @@ const finishedPools = [
   },
   {
     sousId: 257,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.froyo,
     contractAddress: {
       97: '',
@@ -424,7 +424,7 @@ const finishedPools = [
   },
   {
     sousId: 256,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.aog,
     contractAddress: {
       97: '',
@@ -437,7 +437,7 @@ const finishedPools = [
   },
   {
     sousId: 255,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.apx,
     contractAddress: {
       97: '',
@@ -450,7 +450,7 @@ const finishedPools = [
   },
   {
     sousId: 254,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.bcoin,
     contractAddress: {
       97: '',
@@ -463,7 +463,7 @@ const finishedPools = [
   },
   {
     sousId: 253,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.bcoin,
     contractAddress: {
       97: '',
@@ -476,7 +476,7 @@ const finishedPools = [
   },
   {
     sousId: 252,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.insur,
     contractAddress: {
       97: '',
@@ -489,7 +489,7 @@ const finishedPools = [
   },
   {
     sousId: 251,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.gm,
     contractAddress: {
       97: '',
@@ -502,7 +502,7 @@ const finishedPools = [
   },
   {
     sousId: 250,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.woop,
     contractAddress: {
       97: '',
@@ -515,7 +515,7 @@ const finishedPools = [
   },
   {
     sousId: 249,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.high,
     contractAddress: {
       97: '',
@@ -528,7 +528,7 @@ const finishedPools = [
   },
   {
     sousId: 247,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.dpt,
     contractAddress: {
       97: '',
@@ -541,7 +541,7 @@ const finishedPools = [
   },
   {
     sousId: 246,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.thg,
     contractAddress: {
       97: '',
@@ -554,7 +554,7 @@ const finishedPools = [
   },
   {
     sousId: 245,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.idia,
     contractAddress: {
       97: '',
@@ -567,7 +567,7 @@ const finishedPools = [
   },
   {
     sousId: 244,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.xcv,
     contractAddress: {
       97: '',
@@ -580,7 +580,7 @@ const finishedPools = [
   },
   {
     sousId: 243,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.nabox,
     contractAddress: {
       97: '',
@@ -593,7 +593,7 @@ const finishedPools = [
   },
   {
     sousId: 242,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.santos,
     contractAddress: {
       97: '',
@@ -606,7 +606,7 @@ const finishedPools = [
   },
   {
     sousId: 241,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.quidd,
     contractAddress: {
       97: '',
@@ -619,7 +619,7 @@ const finishedPools = [
   },
   {
     sousId: 240,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.zoo,
     contractAddress: {
       97: '',
@@ -632,7 +632,7 @@ const finishedPools = [
   },
   {
     sousId: 239,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.sfund,
     contractAddress: {
       97: '',
@@ -645,7 +645,7 @@ const finishedPools = [
   },
   {
     sousId: 238,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.qi,
     contractAddress: {
       97: '',
@@ -658,7 +658,7 @@ const finishedPools = [
   },
   {
     sousId: 237,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.kart,
     contractAddress: {
       97: '',
@@ -671,7 +671,7 @@ const finishedPools = [
   },
   {
     sousId: 236,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.porto,
     contractAddress: {
       97: '',
@@ -684,7 +684,7 @@ const finishedPools = [
   },
   {
     sousId: 235,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.dvi,
     contractAddress: {
       97: '',
@@ -697,7 +697,7 @@ const finishedPools = [
   },
   {
     sousId: 234,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.jgn,
     contractAddress: {
       97: '',
@@ -710,7 +710,7 @@ const finishedPools = [
   },
   {
     sousId: 232,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.xwg,
     contractAddress: {
       97: '',
@@ -723,7 +723,7 @@ const finishedPools = [
   },
   {
     sousId: 231,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.dar,
     contractAddress: {
       97: '',
@@ -736,7 +736,7 @@ const finishedPools = [
   },
   {
     sousId: 230,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.fina,
     contractAddress: {
       97: '',
@@ -749,7 +749,7 @@ const finishedPools = [
   },
   {
     sousId: 229,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.bmon,
     contractAddress: {
       97: '',
@@ -762,7 +762,7 @@ const finishedPools = [
   },
   {
     sousId: 228,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.dkt,
     contractAddress: {
       97: '',
@@ -775,7 +775,7 @@ const finishedPools = [
   },
   {
     sousId: 227,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.ramp,
     contractAddress: {
       97: '',
@@ -788,7 +788,7 @@ const finishedPools = [
   },
   {
     sousId: 226,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.lazio,
     contractAddress: {
       97: '',
@@ -801,7 +801,7 @@ const finishedPools = [
   },
   {
     sousId: 225,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.sps,
     contractAddress: {
       97: '',
@@ -814,7 +814,7 @@ const finishedPools = [
   },
   {
     sousId: 224,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.mcb,
     contractAddress: {
       97: '',
@@ -827,7 +827,7 @@ const finishedPools = [
   },
   {
     sousId: 223,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.rpg,
     contractAddress: {
       97: '',
@@ -840,7 +840,7 @@ const finishedPools = [
   },
   {
     sousId: 222,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.beta,
     contractAddress: {
       97: '',
@@ -853,7 +853,7 @@ const finishedPools = [
   },
   {
     sousId: 233,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.eternal,
     contractAddress: {
       97: '',
@@ -866,7 +866,7 @@ const finishedPools = [
   },
   {
     sousId: 221,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.nft,
     contractAddress: {
       97: '',
@@ -879,7 +879,7 @@ const finishedPools = [
   },
   {
     sousId: 220,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.chess,
     contractAddress: {
       97: '',
@@ -892,7 +892,7 @@ const finishedPools = [
   },
   {
     sousId: 219,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.tlos,
     contractAddress: {
       97: '',
@@ -905,7 +905,7 @@ const finishedPools = [
   },
   {
     sousId: 218,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.stephero,
     contractAddress: {
       97: '',
@@ -918,7 +918,7 @@ const finishedPools = [
   },
   {
     sousId: 217,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.bp,
     contractAddress: {
       97: '',
@@ -931,7 +931,7 @@ const finishedPools = [
   },
   {
     sousId: 216,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.cvp,
     contractAddress: {
       97: '',
@@ -944,7 +944,7 @@ const finishedPools = [
   },
   {
     sousId: 215,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.qbt,
     contractAddress: {
       97: '',
@@ -957,7 +957,7 @@ const finishedPools = [
   },
   {
     sousId: 214,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.naos,
     contractAddress: {
       97: '',
@@ -970,7 +970,7 @@ const finishedPools = [
   },
   {
     sousId: 213,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.pha,
     contractAddress: {
       97: '',
@@ -983,7 +983,7 @@ const finishedPools = [
   },
   {
     sousId: 212,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.bel,
     contractAddress: {
       97: '',
@@ -996,7 +996,7 @@ const finishedPools = [
   },
   {
     sousId: 211,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.ramp,
     contractAddress: {
       97: '',
@@ -1009,7 +1009,7 @@ const finishedPools = [
   },
   {
     sousId: 210,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.pots,
     contractAddress: {
       97: '',
@@ -1022,7 +1022,7 @@ const finishedPools = [
   },
   {
     sousId: 209,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.tusd,
     contractAddress: {
       97: '',
@@ -1035,7 +1035,7 @@ const finishedPools = [
   },
   {
     sousId: 208,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.revv,
     contractAddress: {
       97: '',
@@ -1048,7 +1048,7 @@ const finishedPools = [
   },
   {
     sousId: 207,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.bttold,
     contractAddress: {
       97: '',
@@ -1061,7 +1061,7 @@ const finishedPools = [
   },
   {
     sousId: 206,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.skill,
     contractAddress: {
       97: '',
@@ -1074,7 +1074,7 @@ const finishedPools = [
   },
   {
     sousId: 205,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.win,
     contractAddress: {
       97: '',
@@ -1087,7 +1087,7 @@ const finishedPools = [
   },
   {
     sousId: 204,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.if,
     contractAddress: {
       97: '',
@@ -1100,7 +1100,7 @@ const finishedPools = [
   },
   {
     sousId: 203,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.sps,
     contractAddress: {
       97: '',
@@ -1113,7 +1113,7 @@ const finishedPools = [
   },
   {
     sousId: 202,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.c98,
     contractAddress: {
       97: '',
@@ -1126,7 +1126,7 @@ const finishedPools = [
   },
   {
     sousId: 201,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.axs,
     contractAddress: {
       97: '',
@@ -1140,7 +1140,7 @@ const finishedPools = [
   {
     sousId: 200,
     stakingToken: serializedTokens.axs,
-    earningToken: serializedTokens.cake,
+    earningToken: serializedTokens.afx,
     contractAddress: {
       97: '',
       56: '0x583A36816F3b8401C4fdf682203E0caDA6997740',
@@ -1152,7 +1152,7 @@ const finishedPools = [
   },
   {
     sousId: 199,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.pmon,
     contractAddress: {
       97: '',
@@ -1165,7 +1165,7 @@ const finishedPools = [
   },
   {
     sousId: 198,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.trx,
     contractAddress: {
       97: '',
@@ -1178,7 +1178,7 @@ const finishedPools = [
   },
   {
     sousId: 197,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.chess,
     contractAddress: {
       97: '',
@@ -1191,7 +1191,7 @@ const finishedPools = [
   },
   {
     sousId: 196,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.titan,
     contractAddress: {
       97: '',
@@ -1204,7 +1204,7 @@ const finishedPools = [
   },
   {
     sousId: 195,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.harmony,
     contractAddress: {
       97: '',
@@ -1217,7 +1217,7 @@ const finishedPools = [
   },
   {
     sousId: 194,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.mask,
     contractAddress: {
       97: '',
@@ -1230,7 +1230,7 @@ const finishedPools = [
   },
   {
     sousId: 193,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.dvi,
     contractAddress: {
       97: '',
@@ -1243,7 +1243,7 @@ const finishedPools = [
   },
   {
     sousId: 192,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.gum,
     contractAddress: {
       97: '',
@@ -1256,7 +1256,7 @@ const finishedPools = [
   },
   {
     sousId: 191,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.adx,
     contractAddress: {
       97: '',
@@ -1269,7 +1269,7 @@ const finishedPools = [
   },
   {
     sousId: 190,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.suter,
     contractAddress: {
       97: '',
@@ -1282,7 +1282,7 @@ const finishedPools = [
   },
   {
     sousId: 189,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.bscpad,
     contractAddress: {
       97: '',
@@ -1295,7 +1295,7 @@ const finishedPools = [
   },
   {
     sousId: 188,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.rabbit,
     contractAddress: {
       97: '',
@@ -1308,7 +1308,7 @@ const finishedPools = [
   },
   {
     sousId: 187,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.waultx,
     contractAddress: {
       97: '',
@@ -1321,7 +1321,7 @@ const finishedPools = [
   },
   {
     sousId: 186,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.wex,
     contractAddress: {
       97: '',
@@ -1334,7 +1334,7 @@ const finishedPools = [
   },
   {
     sousId: 185,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.form,
     contractAddress: {
       97: '',
@@ -1347,7 +1347,7 @@ const finishedPools = [
   },
   {
     sousId: 184,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.orbs,
     contractAddress: {
       97: '',
@@ -1360,7 +1360,7 @@ const finishedPools = [
   },
   {
     sousId: 183,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.$dg,
     contractAddress: {
       97: '',
@@ -1373,7 +1373,7 @@ const finishedPools = [
   },
   {
     sousId: 182,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.woo,
     contractAddress: {
       97: '',
@@ -1386,7 +1386,7 @@ const finishedPools = [
   },
   {
     sousId: 181,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.woo,
     contractAddress: {
       97: '',
@@ -1399,7 +1399,7 @@ const finishedPools = [
   },
   {
     sousId: 180,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.htb,
     contractAddress: {
       97: '',
@@ -1412,7 +1412,7 @@ const finishedPools = [
   },
   {
     sousId: 179,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.jgn,
     contractAddress: {
       97: '',
@@ -1425,7 +1425,7 @@ const finishedPools = [
   },
   {
     sousId: 178,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.dft,
     contractAddress: {
       97: '',
@@ -1438,7 +1438,7 @@ const finishedPools = [
   },
   {
     sousId: 177,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.hai,
     contractAddress: {
       97: '',
@@ -1451,7 +1451,7 @@ const finishedPools = [
   },
   {
     sousId: 176,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.o3,
     contractAddress: {
       97: '',
@@ -1464,7 +1464,7 @@ const finishedPools = [
   },
   {
     sousId: 175,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.ampl,
     contractAddress: {
       97: '',
@@ -1477,7 +1477,7 @@ const finishedPools = [
   },
   {
     sousId: 174,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.oddz,
     contractAddress: {
       97: '',
@@ -1490,7 +1490,7 @@ const finishedPools = [
   },
   {
     sousId: 173,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.bondly,
     contractAddress: {
       97: '',
@@ -1503,7 +1503,7 @@ const finishedPools = [
   },
   {
     sousId: 172,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.marsh,
     contractAddress: {
       97: '',
@@ -1516,7 +1516,7 @@ const finishedPools = [
   },
   {
     sousId: 171,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.mbox,
     contractAddress: {
       97: '',
@@ -1529,7 +1529,7 @@ const finishedPools = [
   },
   {
     sousId: 170,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.ata,
     contractAddress: {
       97: '',
@@ -1542,7 +1542,7 @@ const finishedPools = [
   },
   {
     sousId: 169,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.mx,
     contractAddress: {
       97: '',
@@ -1555,7 +1555,7 @@ const finishedPools = [
   },
   {
     sousId: 168,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.bcfx,
     contractAddress: {
       97: '',
@@ -1568,7 +1568,7 @@ const finishedPools = [
   },
   {
     sousId: 167,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.qkc,
     contractAddress: {
       97: '',
@@ -1581,7 +1581,7 @@ const finishedPools = [
   },
   {
     sousId: 166,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.ktn,
     contractAddress: {
       97: '',
@@ -1594,7 +1594,7 @@ const finishedPools = [
   },
   {
     sousId: 165,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.mtrg,
     contractAddress: {
       97: '',
@@ -1607,7 +1607,7 @@ const finishedPools = [
   },
   {
     sousId: 164,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.tusd,
     contractAddress: {
       97: '',
@@ -1620,7 +1620,7 @@ const finishedPools = [
   },
   {
     sousId: 163,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.vrt,
     contractAddress: {
       97: '',
@@ -1633,7 +1633,7 @@ const finishedPools = [
   },
   {
     sousId: 162,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.kalm,
     contractAddress: {
       97: '',
@@ -1646,7 +1646,7 @@ const finishedPools = [
   },
   {
     sousId: 161,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.ez,
     contractAddress: {
       97: '',
@@ -1659,7 +1659,7 @@ const finishedPools = [
   },
   {
     sousId: 160,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.kalm,
     contractAddress: {
       97: '',
@@ -1673,7 +1673,7 @@ const finishedPools = [
   },
   {
     sousId: 159,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.popen,
     contractAddress: {
       97: '',
@@ -1686,7 +1686,7 @@ const finishedPools = [
   },
   {
     sousId: 158,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.lien,
     contractAddress: {
       97: '',
@@ -1699,7 +1699,7 @@ const finishedPools = [
   },
   {
     sousId: 157,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.well,
     contractAddress: {
       97: '',
@@ -1712,7 +1712,7 @@ const finishedPools = [
   },
   {
     sousId: 156,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.deri,
     contractAddress: {
       97: '',
@@ -1725,7 +1725,7 @@ const finishedPools = [
   },
   {
     sousId: 155,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.chr,
     contractAddress: {
       97: '',
@@ -1738,7 +1738,7 @@ const finishedPools = [
   },
   {
     sousId: 154,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.cyc,
     contractAddress: {
       97: '',
@@ -1751,7 +1751,7 @@ const finishedPools = [
   },
   {
     sousId: 153,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.xend,
     contractAddress: {
       97: '',
@@ -1765,7 +1765,7 @@ const finishedPools = [
   },
   {
     sousId: 152,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.hget,
     contractAddress: {
       97: '',
@@ -1779,7 +1779,7 @@ const finishedPools = [
   },
   {
     sousId: 151,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.hotcross,
     contractAddress: {
       97: '',
@@ -1793,7 +1793,7 @@ const finishedPools = [
   },
   {
     sousId: 150,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.rfox,
     contractAddress: {
       97: '',
@@ -1807,7 +1807,7 @@ const finishedPools = [
   },
   {
     sousId: 149,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.wmass,
     contractAddress: {
       97: '',
@@ -1821,7 +1821,7 @@ const finishedPools = [
   },
   {
     sousId: 148,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.ubxt,
     contractAddress: {
       97: '',
@@ -1835,7 +1835,7 @@ const finishedPools = [
   },
   {
     sousId: 147,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.btr,
     contractAddress: {
       97: '',
@@ -1849,7 +1849,7 @@ const finishedPools = [
   },
   {
     sousId: 146,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.τdoge,
     contractAddress: {
       97: '',
@@ -1863,7 +1863,7 @@ const finishedPools = [
   },
   {
     sousId: 145,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.pmon,
     contractAddress: {
       97: '',
@@ -1877,7 +1877,7 @@ const finishedPools = [
   },
   {
     sousId: 144,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.one,
     contractAddress: {
       97: '',
@@ -1891,7 +1891,7 @@ const finishedPools = [
   },
   {
     sousId: 143,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.fine,
     contractAddress: {
       97: '',
@@ -1906,7 +1906,7 @@ const finishedPools = [
   {
     sousId: 142,
     stakingToken: serializedTokens.doge,
-    earningToken: serializedTokens.cake,
+    earningToken: serializedTokens.afx,
     contractAddress: {
       97: '',
       56: '0xbebd44824631b55991fa5f2bf5c7a4ec96ff805b',
@@ -1919,7 +1919,7 @@ const finishedPools = [
   },
   {
     sousId: 141,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.bmxx,
     contractAddress: {
       97: '',
@@ -1933,7 +1933,7 @@ const finishedPools = [
   },
   {
     sousId: 140,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.oin,
     contractAddress: {
       97: '',
@@ -1947,7 +1947,7 @@ const finishedPools = [
   },
   {
     sousId: 139,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.hyfi,
     contractAddress: {
       97: '',
@@ -1961,7 +1961,7 @@ const finishedPools = [
   },
   {
     sousId: 138,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.kun,
     contractAddress: {
       97: '',
@@ -1975,7 +1975,7 @@ const finishedPools = [
   },
   {
     sousId: 137,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.math,
     contractAddress: {
       97: '',
@@ -1989,7 +1989,7 @@ const finishedPools = [
   },
   {
     sousId: 136,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.ust,
     contractAddress: {
       97: '',
@@ -2003,7 +2003,7 @@ const finishedPools = [
   },
   {
     sousId: 135,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.win,
     contractAddress: {
       97: '',
@@ -2017,7 +2017,7 @@ const finishedPools = [
   },
   {
     sousId: 134,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.trx,
     contractAddress: {
       97: '',
@@ -2031,7 +2031,7 @@ const finishedPools = [
   },
   {
     sousId: 133,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.bttold,
     contractAddress: {
       97: '',
@@ -2045,7 +2045,7 @@ const finishedPools = [
   },
   {
     sousId: 132,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.lmt,
     contractAddress: {
       97: '',
@@ -2059,7 +2059,7 @@ const finishedPools = [
   },
   {
     sousId: 131,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.pnt,
     contractAddress: {
       97: '',
@@ -2073,7 +2073,7 @@ const finishedPools = [
   },
   {
     sousId: 130,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.xmark,
     contractAddress: {
       97: '',
@@ -2087,7 +2087,7 @@ const finishedPools = [
   },
   {
     sousId: 129,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.ramp,
     contractAddress: {
       97: '',
@@ -2101,7 +2101,7 @@ const finishedPools = [
   },
   {
     sousId: 128,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.hakka,
     contractAddress: {
       97: '',
@@ -2115,7 +2115,7 @@ const finishedPools = [
   },
   {
     sousId: 127,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.pbtc,
     contractAddress: {
       97: '',
@@ -2129,7 +2129,7 @@ const finishedPools = [
   },
   {
     sousId: 126,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.lien,
     contractAddress: {
       97: '',
@@ -2143,7 +2143,7 @@ const finishedPools = [
   },
   {
     sousId: 125,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.bbadger,
     contractAddress: {
       97: '',
@@ -2157,7 +2157,7 @@ const finishedPools = [
   },
   {
     sousId: 124,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.bdigg,
     contractAddress: {
       97: '',
@@ -2171,7 +2171,7 @@ const finishedPools = [
   },
   {
     sousId: 123,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.bondly,
     contractAddress: {
       97: '',
@@ -2185,7 +2185,7 @@ const finishedPools = [
   },
   {
     sousId: 122,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.xed,
     contractAddress: {
       97: '',
@@ -2199,7 +2199,7 @@ const finishedPools = [
   },
   {
     sousId: 121,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.cgg,
     contractAddress: {
       97: '',
@@ -2213,7 +2213,7 @@ const finishedPools = [
   },
   {
     sousId: 120,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.perl,
     contractAddress: {
       97: '',
@@ -2227,7 +2227,7 @@ const finishedPools = [
   },
   {
     sousId: 119,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.arpa,
     contractAddress: {
       97: '',
@@ -2241,7 +2241,7 @@ const finishedPools = [
   },
   {
     sousId: 118,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.oddz,
     contractAddress: {
       97: '',
@@ -2255,7 +2255,7 @@ const finishedPools = [
   },
   {
     sousId: 117,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.dexe,
     contractAddress: {
       97: '',
@@ -2269,7 +2269,7 @@ const finishedPools = [
   },
   {
     sousId: 116,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.dfd,
     contractAddress: {
       97: '',
@@ -2283,7 +2283,7 @@ const finishedPools = [
   },
   {
     sousId: 115,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.alpaca,
     contractAddress: {
       97: '',
@@ -2297,7 +2297,7 @@ const finishedPools = [
   },
   {
     sousId: 114,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.τbtc,
     contractAddress: {
       97: '',
@@ -2311,7 +2311,7 @@ const finishedPools = [
   },
   {
     sousId: 113,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.τbtc,
     contractAddress: {
       97: '',
@@ -2325,7 +2325,7 @@ const finishedPools = [
   },
   {
     sousId: 112,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.swingby,
     contractAddress: {
       97: '',
@@ -2338,7 +2338,7 @@ const finishedPools = [
   },
   {
     sousId: 111,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.xed,
     contractAddress: {
       97: '',
@@ -2353,7 +2353,7 @@ const finishedPools = [
   },
   {
     sousId: 110,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.hakka,
     contractAddress: {
       97: '',
@@ -2368,7 +2368,7 @@ const finishedPools = [
   },
   {
     sousId: 109,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.cgg,
     contractAddress: {
       97: '',
@@ -2383,7 +2383,7 @@ const finishedPools = [
   },
   {
     sousId: 108,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.mix,
     contractAddress: {
       97: '',
@@ -2396,7 +2396,7 @@ const finishedPools = [
   },
   {
     sousId: 107,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.suter,
     contractAddress: {
       97: '',
@@ -2409,7 +2409,7 @@ const finishedPools = [
   },
   {
     sousId: 106,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.broobee,
     contractAddress: {
       97: '',
@@ -2422,7 +2422,7 @@ const finishedPools = [
   },
   {
     sousId: 105,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.hzn,
     contractAddress: {
       97: '',
@@ -2435,7 +2435,7 @@ const finishedPools = [
   },
   {
     sousId: 104,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.alpa,
     contractAddress: {
       97: '',
@@ -2448,7 +2448,7 @@ const finishedPools = [
   },
   {
     sousId: 103,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.perl,
     contractAddress: {
       97: '',
@@ -2463,7 +2463,7 @@ const finishedPools = [
   },
   {
     sousId: 102,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.tlm,
     contractAddress: {
       97: '',
@@ -2476,7 +2476,7 @@ const finishedPools = [
   },
   {
     sousId: 101,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.jgn,
     contractAddress: {
       97: '',
@@ -2489,7 +2489,7 @@ const finishedPools = [
   },
   {
     sousId: 100,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.eps,
     contractAddress: {
       97: '',
@@ -2502,7 +2502,7 @@ const finishedPools = [
   },
   {
     sousId: 99,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.arpa,
     contractAddress: {
       97: '',
@@ -2517,7 +2517,7 @@ const finishedPools = [
   },
   {
     sousId: 98,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.itam,
     contractAddress: {
       97: '',
@@ -2530,7 +2530,7 @@ const finishedPools = [
   },
   {
     sousId: 97,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.bondly,
     contractAddress: {
       97: '',
@@ -2545,7 +2545,7 @@ const finishedPools = [
   },
   {
     sousId: 96,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.tko,
     contractAddress: {
       97: '',
@@ -2558,7 +2558,7 @@ const finishedPools = [
   },
   {
     sousId: 95,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.apys,
     contractAddress: {
       97: '',
@@ -2571,7 +2571,7 @@ const finishedPools = [
   },
   {
     sousId: 94,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.hoo,
     contractAddress: {
       97: '',
@@ -2584,7 +2584,7 @@ const finishedPools = [
   },
   {
     sousId: 93,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.oddz,
     contractAddress: {
       97: '',
@@ -2599,7 +2599,7 @@ const finishedPools = [
   },
   {
     sousId: 92,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.easy,
     contractAddress: {
       97: '',
@@ -2612,7 +2612,7 @@ const finishedPools = [
   },
   {
     sousId: 91,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.nrv,
     contractAddress: {
       97: '',
@@ -2625,7 +2625,7 @@ const finishedPools = [
   },
   {
     sousId: 90,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.dego,
     contractAddress: {
       97: '',
@@ -2638,7 +2638,7 @@ const finishedPools = [
   },
   {
     sousId: 89,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.gum,
     contractAddress: {
       97: '',
@@ -2651,7 +2651,7 @@ const finishedPools = [
   },
   {
     sousId: 88,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.pbtc,
     contractAddress: {
       97: '',
@@ -2666,7 +2666,7 @@ const finishedPools = [
   },
   {
     sousId: 87,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.dft,
     contractAddress: {
       97: '',
@@ -2679,7 +2679,7 @@ const finishedPools = [
   },
   {
     sousId: 86,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.swth,
     contractAddress: {
       97: '',
@@ -2692,7 +2692,7 @@ const finishedPools = [
   },
   {
     sousId: 85,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.lien,
     contractAddress: {
       97: '',
@@ -2707,7 +2707,7 @@ const finishedPools = [
   },
   {
     sousId: 84,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.zil,
     contractAddress: {
       97: '',
@@ -2720,7 +2720,7 @@ const finishedPools = [
   },
   {
     sousId: 83,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.pcws,
     contractAddress: {
       97: '',
@@ -2733,7 +2733,7 @@ const finishedPools = [
   },
   {
     sousId: 82,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.bbadger,
     contractAddress: {
       97: '',
@@ -2748,7 +2748,7 @@ const finishedPools = [
   },
   {
     sousId: 81,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.bdigg,
     contractAddress: {
       97: '',
@@ -2763,7 +2763,7 @@ const finishedPools = [
   },
   {
     sousId: 80,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.lto,
     contractAddress: {
       97: '',
@@ -2776,7 +2776,7 @@ const finishedPools = [
   },
   {
     sousId: 79,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.mir,
     contractAddress: {
       97: '',
@@ -2790,7 +2790,7 @@ const finishedPools = [
   },
   {
     sousId: 78,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.mir,
     contractAddress: {
       97: '',
@@ -2805,7 +2805,7 @@ const finishedPools = [
   },
   {
     sousId: 77,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.trade,
     contractAddress: {
       97: '',
@@ -2819,7 +2819,7 @@ const finishedPools = [
   },
   {
     sousId: 76,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.dusk,
     contractAddress: {
       97: '',
@@ -2833,7 +2833,7 @@ const finishedPools = [
   },
   {
     sousId: 75,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.bifi,
     contractAddress: {
       97: '',
@@ -2847,7 +2847,7 @@ const finishedPools = [
   },
   {
     sousId: 74,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.txl,
     contractAddress: {
       97: '',
@@ -2861,7 +2861,7 @@ const finishedPools = [
   },
   {
     sousId: 73,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.cos,
     contractAddress: {
       97: '',
@@ -2875,7 +2875,7 @@ const finishedPools = [
   },
   {
     sousId: 72,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.bunny,
     contractAddress: {
       97: '',
@@ -2889,7 +2889,7 @@ const finishedPools = [
   },
   {
     sousId: 71,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.alice,
     contractAddress: {
       97: '',
@@ -2903,7 +2903,7 @@ const finishedPools = [
   },
   {
     sousId: 70,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.for,
     contractAddress: {
       97: '',
@@ -2917,7 +2917,7 @@ const finishedPools = [
   },
   {
     sousId: 69,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.bux,
     contractAddress: {
       97: '',
@@ -2931,7 +2931,7 @@ const finishedPools = [
   },
   {
     sousId: 68,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.nuls,
     contractAddress: {
       97: '',
@@ -2945,7 +2945,7 @@ const finishedPools = [
   },
   {
     sousId: 67,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.belt,
     contractAddress: {
       97: '',
@@ -2959,7 +2959,7 @@ const finishedPools = [
   },
   {
     sousId: 66,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.ramp,
     contractAddress: {
       97: '',
@@ -2974,7 +2974,7 @@ const finishedPools = [
   },
   {
     sousId: 65,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.bfi,
     contractAddress: {
       97: '',
@@ -2988,7 +2988,7 @@ const finishedPools = [
   },
   {
     sousId: 64,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.dexe,
     contractAddress: {
       97: '',
@@ -3003,7 +3003,7 @@ const finishedPools = [
   },
   {
     sousId: 63,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.bel,
     contractAddress: {
       97: '',
@@ -3018,7 +3018,7 @@ const finishedPools = [
   {
     sousId: 62,
     stakingToken: serializedTokens.tpt,
-    earningToken: serializedTokens.cake,
+    earningToken: serializedTokens.afx,
     contractAddress: {
       97: '',
       56: '0x0c3D6892aa3b23811Af3bd1bbeA8b0740E8e4528',
@@ -3031,7 +3031,7 @@ const finishedPools = [
   },
   {
     sousId: 61,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.tpt,
     contractAddress: {
       97: '',
@@ -3045,7 +3045,7 @@ const finishedPools = [
   },
   {
     sousId: 60,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.watch,
     contractAddress: {
       97: '',
@@ -3059,7 +3059,7 @@ const finishedPools = [
   },
   {
     sousId: 59,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.xmark,
     contractAddress: {
       97: '',
@@ -3073,7 +3073,7 @@ const finishedPools = [
   },
   {
     sousId: 58,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.bmxx,
     contractAddress: {
       97: '',
@@ -3087,7 +3087,7 @@ const finishedPools = [
   },
   {
     sousId: 57,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.iotx,
     contractAddress: {
       97: '',
@@ -3101,7 +3101,7 @@ const finishedPools = [
   },
   {
     sousId: 56,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.bor,
     contractAddress: {
       97: '',
@@ -3115,7 +3115,7 @@ const finishedPools = [
   },
   {
     sousId: 55,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.bopen,
     contractAddress: {
       97: '',
@@ -3130,7 +3130,7 @@ const finishedPools = [
   {
     sousId: 54,
     stakingToken: serializedTokens.sushi,
-    earningToken: serializedTokens.cake,
+    earningToken: serializedTokens.afx,
     contractAddress: {
       97: '',
       56: '0xb69b6e390cba1F68442A886bC89E955048DAe7E3',
@@ -3143,7 +3143,7 @@ const finishedPools = [
   },
   {
     sousId: 53,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.dodo,
     contractAddress: {
       97: '',
@@ -3157,7 +3157,7 @@ const finishedPools = [
   },
   {
     sousId: 52,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.swingby,
     contractAddress: {
       97: '',
@@ -3171,7 +3171,7 @@ const finishedPools = [
   },
   {
     sousId: 51,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.bry,
     contractAddress: {
       97: '',
@@ -3185,7 +3185,7 @@ const finishedPools = [
   },
   {
     sousId: 50,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.zee,
     contractAddress: {
       97: '',
@@ -3199,7 +3199,7 @@ const finishedPools = [
   },
   {
     sousId: 49,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.swgb,
     contractAddress: {
       97: '',
@@ -3214,7 +3214,7 @@ const finishedPools = [
   {
     sousId: 48,
     stakingToken: serializedTokens.comp,
-    earningToken: serializedTokens.cake,
+    earningToken: serializedTokens.afx,
     contractAddress: {
       97: '',
       56: '0xE0565fBb109A3f3f8097D8A9D931277bfd795072',
@@ -3228,7 +3228,7 @@ const finishedPools = [
   {
     sousId: 47,
     stakingToken: serializedTokens.comp,
-    earningToken: serializedTokens.cake,
+    earningToken: serializedTokens.afx,
     contractAddress: {
       97: '',
       56: '0xc3693e3cbc3514d5d07EA5b27A721F184F617900',
@@ -3241,7 +3241,7 @@ const finishedPools = [
   },
   {
     sousId: 46,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.sfp,
     contractAddress: {
       97: '',
@@ -3255,7 +3255,7 @@ const finishedPools = [
   },
   {
     sousId: 45,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.lina,
     contractAddress: {
       97: '',
@@ -3269,7 +3269,7 @@ const finishedPools = [
   },
   {
     sousId: 44,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.lina,
     contractAddress: {
       97: '',
@@ -3283,7 +3283,7 @@ const finishedPools = [
   },
   {
     sousId: 43,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.lit,
     contractAddress: {
       97: '',
@@ -3297,7 +3297,7 @@ const finishedPools = [
   },
   {
     sousId: 42,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.hget,
     contractAddress: {
       97: '',
@@ -3311,7 +3311,7 @@ const finishedPools = [
   },
   {
     sousId: 41,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.bdo,
     contractAddress: {
       97: '',
@@ -3325,7 +3325,7 @@ const finishedPools = [
   },
   {
     sousId: 40,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.egld,
     contractAddress: {
       97: '',
@@ -3339,7 +3339,7 @@ const finishedPools = [
   },
   {
     sousId: 39,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.ust,
     contractAddress: {
       97: '',
@@ -3353,7 +3353,7 @@ const finishedPools = [
   },
   {
     sousId: 38,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.wsote,
     contractAddress: {
       97: '',
@@ -3367,7 +3367,7 @@ const finishedPools = [
   },
   {
     sousId: 37,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.front,
     contractAddress: {
       97: '',
@@ -3381,7 +3381,7 @@ const finishedPools = [
   },
   {
     sousId: 36,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.helmet,
     contractAddress: {
       97: '',
@@ -3395,7 +3395,7 @@ const finishedPools = [
   },
   {
     sousId: 35,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.btcst,
     contractAddress: {
       97: '',
@@ -3409,7 +3409,7 @@ const finishedPools = [
   },
   {
     sousId: 34,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.bscx,
     contractAddress: {
       97: '',
@@ -3423,7 +3423,7 @@ const finishedPools = [
   },
   {
     sousId: 33,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.ten,
     contractAddress: {
       97: '',
@@ -3437,7 +3437,7 @@ const finishedPools = [
   },
   {
     sousId: 32,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.balbt,
     contractAddress: {
       97: '',
@@ -3451,7 +3451,7 @@ const finishedPools = [
   },
   {
     sousId: 31,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.asr,
     contractAddress: {
       97: '',
@@ -3465,7 +3465,7 @@ const finishedPools = [
   },
   {
     sousId: 30,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.atm,
     contractAddress: {
       97: '',
@@ -3479,7 +3479,7 @@ const finishedPools = [
   },
   {
     sousId: 29,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.og,
     contractAddress: {
       97: '',
@@ -3493,7 +3493,7 @@ const finishedPools = [
   },
   {
     sousId: 28,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.reef,
     contractAddress: {
       97: '',
@@ -3507,7 +3507,7 @@ const finishedPools = [
   },
   {
     sousId: 27,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.ditto,
     contractAddress: {
       97: '',
@@ -3522,7 +3522,7 @@ const finishedPools = [
   {
     sousId: 26,
     stakingToken: serializedTokens.twt,
-    earningToken: serializedTokens.cake,
+    earningToken: serializedTokens.afx,
     contractAddress: {
       97: '',
       56: '0x0554a5D083Abf2f056ae3F6029e1714B9A655174',
@@ -3535,7 +3535,7 @@ const finishedPools = [
   },
   {
     sousId: 24,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.juv,
     contractAddress: {
       97: '',
@@ -3549,7 +3549,7 @@ const finishedPools = [
   },
   {
     sousId: 25,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.psg,
     contractAddress: {
       97: '',
@@ -3563,7 +3563,7 @@ const finishedPools = [
   },
   {
     sousId: 21,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.vai,
     contractAddress: {
       97: '',
@@ -3578,7 +3578,7 @@ const finishedPools = [
   {
     sousId: 20,
     stakingToken: serializedTokens.bnb,
-    earningToken: serializedTokens.cake,
+    earningToken: serializedTokens.afx,
     contractAddress: {
       97: '',
       56: '0x555Ea72d7347E82C614C16f005fA91cAf06DCB5a',
@@ -3591,7 +3591,7 @@ const finishedPools = [
   },
   {
     sousId: 19,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.bnb,
     contractAddress: {
       97: '',
@@ -3605,7 +3605,7 @@ const finishedPools = [
   },
   {
     sousId: 18,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.blink,
     contractAddress: {
       97: '',
@@ -3619,7 +3619,7 @@ const finishedPools = [
   },
   {
     sousId: 17,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.blink,
     contractAddress: {
       97: '',
@@ -3634,7 +3634,7 @@ const finishedPools = [
   },
   {
     sousId: 16,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.unfi,
     contractAddress: {
       97: '',
@@ -3648,7 +3648,7 @@ const finishedPools = [
   },
   {
     sousId: 15,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.twt,
     contractAddress: {
       97: '',
@@ -3662,7 +3662,7 @@ const finishedPools = [
   },
   {
     sousId: 14,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.hard,
     contractAddress: {
       97: '',
@@ -3676,7 +3676,7 @@ const finishedPools = [
   },
   {
     sousId: 13,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.broobee,
     contractAddress: {
       97: '',
@@ -3690,7 +3690,7 @@ const finishedPools = [
   },
   {
     sousId: 12,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.stax,
     contractAddress: {
       97: '',
@@ -3704,7 +3704,7 @@ const finishedPools = [
   },
   {
     sousId: 11,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.nar,
     contractAddress: {
       97: '',
@@ -3718,7 +3718,7 @@ const finishedPools = [
   },
   {
     sousId: 10,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.nya,
     contractAddress: {
       97: '',
@@ -3732,7 +3732,7 @@ const finishedPools = [
   },
   {
     sousId: 9,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.ctk,
     contractAddress: {
       97: '',
@@ -3746,7 +3746,7 @@ const finishedPools = [
   },
   {
     sousId: 8,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.twt,
     contractAddress: {
       97: '',
@@ -3760,7 +3760,7 @@ const finishedPools = [
   },
   {
     sousId: 7,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.inj,
     contractAddress: {
       97: '',
@@ -3774,7 +3774,7 @@ const finishedPools = [
   },
   {
     sousId: 248,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.ccar,
     contractAddress: {
       97: '',
@@ -3787,7 +3787,7 @@ const finishedPools = [
   },
   {
     sousId: 262,
-    stakingToken: serializedTokens.cake,
+    stakingToken: serializedTokens.afx,
     earningToken: serializedTokens.ach,
     contractAddress: {
       97: '',
